@@ -42,9 +42,9 @@ int32_t main(){
             cars.push_back(Car(position[i], speed[i]));
         }
         
-        sort(cars.begin(), cars.end(), [](const Car& a, const Car& b){
-            return a.pos<b.pos;
-        });
+        //sort(cars.begin(), cars.end(), [](const Car& a, const Car& b){
+          //  return a.pos<b.pos;
+        //});
         
         stack<float> mono;
         for(int i = 0; i<N; i++){
